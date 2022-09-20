@@ -1,0 +1,29 @@
+.body {
+    background-color: #eeeeee;
+}
+
+.footer {
+    height: 3%;
+}
+
+.menu {
+    background-color: white;
+    width: 70%;
+    border-radius: 5%;
+}
+
+.inputs {
+    margin-bottom: 34px;
+}
+
+.fields {
+    width: 80%;
+}
+
+.buttons {
+    width: 10%;
+    border-radius: 5%;
+}
+.padding {
+    padding-bottom: 20px;
+}
