@@ -156,7 +156,7 @@ function duplication() {
 
 function reopen() {
     jQuery('#reopen').on('click', function() {
-        window.location.href = "file:///C:/Users/Hammad/Desktop/To-Do%20Software/ToDo_App.html";
+        window.location.href = "file:///C:/Users/Hammad/source/Repos/MyToDo_Application/ToDo_App.html";
         sessionStorage["welcome"] = "Welcome Back!";
     });
 }
