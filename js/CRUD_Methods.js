@@ -4,11 +4,6 @@ var food = [],
     flag = 0;
 jQuery(document).ready(function () {
     //datatable initialization
-    $(document).ready(function () {
-        $('#tbl').DataTable({
-            order: [[3, 'desc']],
-        });
-    });
     //Call Methods
     hide_table();
     welcome_back();
@@ -90,7 +85,7 @@ jQuery(document).ready(function () {
                 duplication();
                 jQuery('msg_box').html("<div  class='alert alert-success container'><strong>" + food[index].food_name + "!</strong> Added Successfully </div>");
                 animate();
-                jQuery('#r' + count).addClass('bg-success');
+                //jQuery('#r' + count).addClass('bg-success');
                 if (jQuery('#r' + String((Number(count) - 1))).hasClass('bg-info text-white')) {
                     jQuery('#r' + String((Number(count) - 1))).removeClass('bg-info text-white');
                     setTimeout(() => {
