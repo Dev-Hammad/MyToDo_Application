@@ -3,6 +3,12 @@ var food = [],
     count = -1,
     flag = 0;
 jQuery(document).ready(function () {
+    //datatable initialization
+    $(document).ready(function () {
+        $('#tbl').DataTable({
+            order: [[3, 'desc']],
+        });
+    });
     //Call Methods
     hide_table();
     welcome_back();
